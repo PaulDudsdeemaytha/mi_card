@@ -9,37 +9,23 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.blue,
         body: SafeArea(
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Container(
-                color: Colors.red,
-                height: 100,
-                width: 100,
-              ),
-              Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                Container(
-                  color: Colors.yellow,
-                  height: 100,
-                  width: 100,
-                ),
-                Container(
-                  color: Colors.green,
-                  height: 100,
-                  width: 100,
-                )
-              ]),
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.blue,
-              )
-            ],
-          ),
-        ),
+            child: Column(
+          children: <Widget>[
+            CircleAvatar(
+              backgroundImage: AssetImage('Assets/linkedinPicture.jpeg'),
+              radius: 70,
+            ),
+            Text(
+              'Paul Dudsdeemaytha',
+              style: TextStyle(
+                  fontSize: 35,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold),
+            ),
+          ],
+        )),
       ),
     );
   }
