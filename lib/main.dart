@@ -20,10 +20,18 @@ class MyApp extends StatelessWidget {
             Text(
               'Paul Dudsdeemaytha',
               style: TextStyle(
-                  fontSize: 35,
-                  color: Colors.white,
-                  fontWeight: FontWeight.bold),
+                fontFamily: 'Raleway',
+                fontSize: 23,
+                color: Colors.white,
+              ),
             ),
+            Text(
+              'Flutter Developer',
+              style: TextStyle(
+                  fontFamily: 'Raleway',
+                  fontWeight: FontWeight.w100,
+                  color: Colors.white70),
+            )
           ],
         )),
       ),
