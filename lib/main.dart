@@ -33,25 +33,25 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.w100,
                   color: Colors.white70),
             ),
+            SizedBox(
+              height: 20,
+              width: 150,
+              child: Divider(
+                color: Colors.tealAccent,
+              ),
+            ),
             Card(
               color: Colors.white,
               margin: EdgeInsets.symmetric(vertical: 10, horizontal: 30),
-              child: Padding(
-                padding: const EdgeInsets.all(13.0),
-                child: Row(
-                  children: <Widget>[
-                    Icon(
-                      Icons.phone,
-                      color: Colors.blue,
-                    ),
-                    Text(
-                      ' 123-345-7890',
-                      style: TextStyle(
-                          color: Colors.blue,
-                          fontFamily: 'Raleway',
-                          fontSize: 18),
-                    )
-                  ],
+              child: ListTile(
+                leading: Icon(
+                  Icons.phone,
+                  color: Colors.blue,
+                ),
+                title: Text(
+                  ' 123-345-7890',
+                  style: TextStyle(
+                      color: Colors.blue, fontFamily: 'Raleway', fontSize: 18),
                 ),
               ),
             ),
@@ -69,19 +69,25 @@ class MyApp extends StatelessWidget {
                       color: Colors.blue, fontFamily: 'Raleway', fontSize: 18),
                 ),
               ),
-            )
+            ),
+            Card(
+              margin: EdgeInsets.symmetric(vertical: 10, horizontal: 30),
+              color: Colors.white,
+              child: ListTile(
+                leading: Icon(
+                  Icons.near_me,
+                  color: Colors.blue,
+                ),
+                title: Text(
+                  ' Maicity, Thucountry',
+                  style: TextStyle(
+                      color: Colors.blue, fontFamily: 'Raleway', fontSize: 18),
+                ),
+              ),
+            ),
           ],
         )),
       ),
     );
   }
 }
-//Row(
-//children: <Widget>[
-//Icon(
-//Icons.email,
-//color: Colors.blue,
-//),
-
-//],
-//),
