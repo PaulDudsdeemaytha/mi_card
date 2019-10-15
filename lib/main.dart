@@ -58,22 +58,15 @@ class MyApp extends StatelessWidget {
             Card(
               margin: EdgeInsets.symmetric(vertical: 10, horizontal: 30),
               color: Colors.white,
-              child: Padding(
-                padding: const EdgeInsets.all(13.0),
-                child: Row(
-                  children: <Widget>[
-                    Icon(
-                      Icons.email,
-                      color: Colors.blue,
-                    ),
-                    Text(
-                      ' exampleEmail@email.com',
-                      style: TextStyle(
-                          color: Colors.blue,
-                          fontFamily: 'Raleway',
-                          fontSize: 18),
-                    )
-                  ],
+              child: ListTile(
+                leading: Icon(
+                  Icons.email,
+                  color: Colors.blue,
+                ),
+                title: Text(
+                  ' exampleEmail@email.com',
+                  style: TextStyle(
+                      color: Colors.blue, fontFamily: 'Raleway', fontSize: 18),
                 ),
               ),
             )
@@ -83,3 +76,12 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+//Row(
+//children: <Widget>[
+//Icon(
+//Icons.email,
+//color: Colors.blue,
+//),
+
+//],
+//),
