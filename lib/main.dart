@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
                   color: Colors.blue,
                 ),
                 title: Text(
-                  ' 123-345-7890',
+                  ' 778-855-5654',
                   style: TextStyle(
                       color: Colors.blue, fontFamily: 'Raleway', fontSize: 18),
                 ),
@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
                   color: Colors.blue,
                 ),
                 title: Text(
-                  ' exampleEmail@email.com',
+                  ' pdudsdee@gmail.com',
                   style: TextStyle(
                       color: Colors.blue, fontFamily: 'Raleway', fontSize: 18),
                 ),
@@ -79,7 +79,7 @@ class MyApp extends StatelessWidget {
                   color: Colors.blue,
                 ),
                 title: Text(
-                  ' Maicity, Thucountry',
+                  ' Vancouver, Canada',
                   style: TextStyle(
                       color: Colors.blue, fontFamily: 'Raleway', fontSize: 18),
                 ),
