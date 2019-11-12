@@ -2,7 +2,7 @@
 
 I first began my Flutter journey creating this simple, single page application. It displays my business card laid out through the use of Flutter UI.
 
-![Screenshot of MiCard](assets/mi_card_screenshot.png)
+![Screenshot of MiCard](Assets/mi_card_screenshot.png)
 
 ## What I learned
 
