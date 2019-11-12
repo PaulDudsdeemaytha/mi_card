@@ -1,17 +1,18 @@
-#MICard - What is it?
+# MICard - A Flutter Business Card
 
-This single page application is going to be a personal business card made with Flutter. It is going to include all my contact details laid out through the use of Flutter UI.
+I first began my Flutter journey creating this simple, single page application. It displays my business card laid out through the use of Flutter UI.
 
-## What I learned while Making this
+![Screenshot of MiCard](assets/mi_card_screenshot.png)
 
-* How to create Stateless Widgets
-* What is the difference between hot reload and hot refresh and running an app from cold
-* How to use Containers to lay out your UI
-* How to use Columns and Rows to position your UI elements
-* How to add custom fonts
-* How to add Material icons
-* How to style Text widgets
-* How to read and use Flutter Documentation
+## What I learned
 
-The link to the original project made by Angela Yu.
-https://github.com/londonappbrewery/mi_card_flutter
+Through this single page app, I was able to grasp some of Flutters features.
+
+- Statful vs Stateless Widgets
+- Hot Reload vs Hot Refresh
+- I learned to add custom fonts, and images into my app
+- Using column and rows
+
+## Technologies Used
+
+- Flutter 1.9.1
