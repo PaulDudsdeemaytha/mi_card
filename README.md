@@ -2,7 +2,7 @@
 
 I first began my Flutter journey creating this simple, single page application. It displays my business card laid out through the use of Flutter UI.
 
-![Screenshot of MiCard](Assets/mi_card_screenshot.png =300)
+<img alt="screenshot of micard" src="Assets/mi_card_screenshot.png" width="300">
 
 ## What I learned
 
